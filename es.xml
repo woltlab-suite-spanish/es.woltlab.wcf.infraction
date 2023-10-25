@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="es" languagename="Español" countrycode="es">
+<import>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.mod.infraction"><![CDATA[Infracciones]]></item>
+		<item name="wcf.acp.group.option.category.admin.user.infraction"><![CDATA[Infracciones]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.canWarn"><![CDATA[Puede advertir a usuarios]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.canUseCustomWarning"><![CDATA[Puede usar advertencias individuales]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.canRevoke"><![CDATA[Puede revocar advertencias]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.immune"><![CDATA[No puede ser advertido]]></item>
+		<item name="wcf.acp.group.option.admin.user.infraction.canManageWarning"><![CDATA[Puede gestionar advertencias]]></item>
+		<item name="wcf.acp.group.option.admin.user.infraction.canManageSuspension"><![CDATA[Puede gestionar suspensiones]]></item>
+	</category>
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.infraction"><![CDATA[Advertencias]]></item>
+		<item name="wcf.acp.menu.link.infraction.suspension.add"><![CDATA[Añadir suspensión predefinida]]></item>
+		<item name="wcf.acp.menu.link.infraction.suspension.list"><![CDATA[Suspensiones predefinidas]]></item>
+		<item name="wcf.acp.menu.link.infraction.userSuspension.list"><![CDATA[Suspensiones activas]]></item>
+		<item name="wcf.acp.menu.link.infraction.userWarning.list"><![CDATA[Advertencias activas]]></item>
+		<item name="wcf.acp.menu.link.infraction.warning.add"><![CDATA[Añadir advertencia predefinida]]></item>
+		<item name="wcf.acp.menu.link.infraction.warning.list"><![CDATA[Advertencias predefinidas]]></item>
+	</category>
+	<category name="wcf.acp.infraction">
+		<item name="wcf.acp.infraction.suspension.add"><![CDATA[Añadir suspensión predefinida]]></item>
+		<item name="wcf.acp.infraction.suspension.edit"><![CDATA[Editar suspensión]]></item>
+		<item name="wcf.acp.infraction.suspension.edit.note"><![CDATA[¡Atención! Los cambios no afectan a las suspensiones activas, la modificación del plazo de caducidad o de los puntos sólo se aplica a las nuevas suspensiones.]]></item>
+		<item name="wcf.acp.infraction.suspension.list"><![CDATA[Suspensiones predefinidas]]></item>
+		<item name="wcf.acp.infraction.userWarning.list"><![CDATA[Advertencias]]></item>
+		<item name="wcf.acp.infraction.userSuspension.list"><![CDATA[Suspensiones]]></item>
+		<item name="wcf.acp.infraction.warning.add"><![CDATA[Añadir advertencia predefinida]]></item>
+		<item name="wcf.acp.infraction.warning.edit"><![CDATA[Editar advertencia]]></item>
+		<item name="wcf.acp.infraction.warning.list"><![CDATA[Advertencias predefinidas]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_user_infraction"><![CDATA[Infracciones]]></item>
+	</category>
+	<category name="wcf.acp.pip">
+		<item name="wcf.acp.pip.objectType.definitionName.com.woltlab.wcf.infraction.warnable.description"><![CDATA[This object type definition is used to register objects for which users can be warned.]]></item>
+		<item name="wcf.acp.pip.objectType.definitionName.com.woltlab.wcf.infraction.suspensionAction.description"><![CDATA[This object type definition is used to register different types of actions that can be executed as a suspension.]]></item>
+	</category>
+	<category name="wcf.infraction">
+		<item name="wcf.infraction.warn"><![CDATA[Advertir]]></item>
+		<item name="wcf.infraction.warn.success"><![CDATA[El usuario ha sido advertido.]]></item>
+		<item name="wcf.infraction.warning.objectInformation"><![CDATA[Detalles del contenido]]></item>
+		<item name="wcf.infraction.warning.data"><![CDATA[Datos de la advertencia]]></item>
+		<item name="wcf.infraction.warning.reason"><![CDATA[Motivo]]></item>
+		<item name="wcf.infraction.warning.reason.description"><![CDATA[El motivo de la advertencia se enviará al usuario en una conversación.]]></item>
+		<item name="wcf.infraction.warning.reason.template.description"><![CDATA[Al avisar a un usuario el campo de texto para el motivo se rellenará previamente con el motivo introducido aquí.]]></item>
+		<item name="wcf.infraction.warning.points"><![CDATA[Puntos]]></item>
+		<item name="wcf.infraction.warning.points.description"><![CDATA[El número de puntos de advertencia añadidos al pool del usuario. La suspensión se activará al alcanzar un número determinado de puntos de advertencia.]]></item>
+		<item name="wcf.infraction.warning.points.minimum"><![CDATA[Puntos mínimos]]></item>
+		<item name="wcf.infraction.warning.points.maximum"><![CDATA[Puntos máximos]]></item>
+		<item name="wcf.infraction.warning.expires"><![CDATA[Expiración]]></item>
+		<item name="wcf.infraction.warning.expires.description"><![CDATA[Las advertencias expiradas no cuentan para los puntos de aviso del usuario.]]></item>
+		<item name="wcf.infraction.warning.expires.never"><![CDATA[La advertencia no expira]]></item>
+		<item name="wcf.infraction.warning.expires.never.short"><![CDATA[Nunca]]></item>
+		<item name="wcf.infraction.warning.expires.days"><![CDATA[Días]]></item>
+		<item name="wcf.infraction.warning.expires.hours"><![CDATA[Horas]]></item>
+		<item name="wcf.infraction.warning.expires.weeks"><![CDATA[Semanas]]></item>
+		<item name="wcf.infraction.warning.predefined"><![CDATA[Advertencia predefinida]]></item>
+		<item name="wcf.infraction.warning.custom"><![CDATA[Advertencia personalizada]]></item>
+		<item name="wcf.infraction.warning.object"><![CDATA[Contenido]]></item>
+		<item name="wcf.infraction.warning.alreadyWarned"><![CDATA[Ya hay una advertencia activa para el contenido cuestionable.]]></item>
+		<item name="wcf.infraction.warning.revokedBy"><![CDATA[Revocada por {if $warning->revokerUsername}{$warning->revokerUsername}{else}el sistema{/if}.]]></item>
+		<item name="wcf.infraction.warning.revoke"><![CDATA[Revocar]]></item>
+		<item name="wcf.infraction.warning.revoke.confirmMessage"><![CDATA[¿Realmente quieres revocar esta advertencia?]]></item>
+		<item name="wcf.infraction.warning.time"><![CDATA[Fecha]]></item>
+		<item name="wcf.infraction.warning.judge"><![CDATA[Juez]]></item>
+		<item name="wcf.infraction.warning.status"><![CDATA[Estado]]></item>
+		<item name="wcf.infraction.warning.status.active"><![CDATA[Activa]]></item>
+		<item name="wcf.infraction.warning.status.expired"><![CDATA[Expirada]]></item>
+		<item name="wcf.infraction.suspension.time"><![CDATA[Fecha]]></item>
+		<item name="wcf.infraction.suspension.predefined"><![CDATA[Suspensión predefinida]]></item>
+		<item name="wcf.infraction.suspension.points"><![CDATA[Puntos]]></item>
+		<item name="wcf.infraction.suspension.points.description"><![CDATA[El número requerido de puntos de advertencia hasta que se active esta suspensión.]]></item>
+		<item name="wcf.infraction.suspension.data"><![CDATA[Datos de la suspensión]]></item>
+		<item name="wcf.infraction.suspension.expires"><![CDATA[Expiración]]></item>
+		<item name="wcf.infraction.suspension.expires.description"><![CDATA[La suspensión se revocará una vez haya expirado.]]></item>
+		<item name="wcf.infraction.suspension.expires.never"><![CDATA[La suspensión no expira]]></item>
+		<item name="wcf.infraction.suspension.action"><![CDATA[Tipo de suspensión]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableAvatar"><![CDATA[Bloquear avatar]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.addToGroup"><![CDATA[Añadir a grupo de usuarios]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableSignature"><![CDATA[Bloquear firma]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.ban"><![CDATA[Banear usuario]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableCoverPhoto"><![CDATA[Bloquear foto de portada]]></item>
+		<item name="wcf.infraction.suspension.action.settings"><![CDATA[Ajustes]]></item>
+		<item name="wcf.infraction.suspension.revokedBy"><![CDATA[Revocada por {if $suspension->revokerUsername}{$suspension->revokerUsername}{else}el sistema{/if}.]]></item>
+		<item name="wcf.infraction.suspension.revoke"><![CDATA[Revocar]]></item>
+		<item name="wcf.infraction.suspension.revoke.confirmMessage"><![CDATA[¿Realmente quieres revocar esta suspensión?]]></item>
+		<item name="wcf.infraction.userWarning.message.subject"><![CDATA[Has recibido una advertencia]]></item>
+		<item name="wcf.infraction.userWarning.message.text"><![CDATA[<h2>Advertencia</h2>
+<p>{$warning->getTitle()}</p>
+{if $warning->getObject()}
+<h3>Contenido</h3>
+<p><a href="{$warning->getObject()->getLink()}">{$warning->getObject()->getTitle()}</a></p>
+{/if}
+<h3>Motivo</h3>
+<p>{@$warning->reason|newlineToBreak}</p>]]></item>
+<item name="wcf.infraction.warning.showDetails"><![CDATA[Mostrar detalles]]></item>
+		<item name="wcf.infraction.warning.details"><![CDATA[Detalles]]></item>
+		<item name="wcf.infraction.warning.longTitle"><![CDATA[{$warning->getTitle()} (Puntos: {#$warning->points}, Expiración: {if $warning->expires == 0}nunca{else}{$warning->expires|dateDiff:0:true}{/if})]]></item>
+	</category>
+	<category name="wcf.infraction.suspension"/>
+	<category name="wcf.infraction.warning"/>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.menu.warning"><![CDATA[Advertencias]]></item>
+	</category>
+</import>
+<delete>
+	<item name="wcf.acp.infraction.suspension.action"/>
+	<item name="wcf.acp.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.addToGroup"/>
+	<item name="wcf.acp.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableAvatar"/>
+	<item name="wcf.acp.infraction.suspension.data"/>
+	<item name="wcf.acp.infraction.suspension.expires"/>
+	<item name="wcf.acp.infraction.suspension.expires.never"/>
+	<item name="wcf.acp.infraction.suspension.noneAvailable"/>
+	<item name="wcf.acp.infraction.suspension.points"/>
+	<item name="wcf.acp.infraction.suspension.title"/>
+	<item name="wcf.acp.infraction.userSuspension.filter"/>
+	<item name="wcf.acp.infraction.userSuspension.noneAvailable"/>
+	<item name="wcf.acp.infraction.userWarning.filter"/>
+	<item name="wcf.acp.infraction.userWarning.noneAvailable"/>
+	<item name="wcf.acp.infraction.warning.data"/>
+	<item name="wcf.acp.infraction.warning.expires"/>
+	<item name="wcf.acp.infraction.warning.expires.never"/>
+	<item name="wcf.acp.infraction.warning.noneAvailable"/>
+	<item name="wcf.acp.infraction.warning.points"/>
+	<item name="wcf.acp.infraction.warning.title"/>
+	<item name="wcf.infraction.suspension.delete.sure"/>
+	<item name="wcf.infraction.suspension.list"/>
+	<item name="wcf.infraction.warning.delete.sure"/>
+	<item name="wcf.infraction.warning.list"/>
+	<item name="wcf.infraction.warning.title.custom"/>
+	<item name="wcf.infraction.warn.objectInformation"/>
+	<item name="wcf.infraction.warn.reason"/>
+	<item name="wcf.user.notification.com.woltlab.wcf.infraction.suspension.created"/>
+	<item name="wcf.user.notification.com.woltlab.wcf.infraction.suspension.created.output"/>
+	<item name="wcf.user.notification.com.woltlab.wcf.infraction.suspension.created.shortOutput"/>
+	<item name="wcf.user.notification.com.woltlab.wcf.infraction.warning"/>
+	<item name="wcf.user.notification.com.woltlab.wcf.infraction.warning.created"/>
+	<item name="wcf.user.notification.com.woltlab.wcf.infraction.warning.created.output"/>
+	<item name="wcf.user.notification.com.woltlab.wcf.infraction.warning.created.shortOutput"/>
+</delete>
+</language>
