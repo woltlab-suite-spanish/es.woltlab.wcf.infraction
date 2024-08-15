@@ -23,7 +23,7 @@
 	<category name="wcf.acp.infraction">
 		<item name="wcf.acp.infraction.suspension.add"><![CDATA[Añadir suspensión predefinida]]></item>
 		<item name="wcf.acp.infraction.suspension.edit"><![CDATA[Editar suspensión]]></item>
-		<item name="wcf.acp.infraction.suspension.edit.note"><![CDATA[¡Atención! Los cambios no afectan a las suspensiones activas, la modificación del plazo de caducidad o de los puntos sólo se aplica a las nuevas suspensiones.]]></item>
+		<item name="wcf.acp.infraction.suspension.edit.note"><![CDATA[¡Atención! Los cambios no afectan a las suspensiones activas, la modificación del plazo de caducidad o de los puntos solo se aplica a las nuevas suspensiones.]]></item>
 		<item name="wcf.acp.infraction.suspension.list"><![CDATA[Suspensiones predefinidas]]></item>
 		<item name="wcf.acp.infraction.userWarning.list"><![CDATA[Advertencias]]></item>
 		<item name="wcf.acp.infraction.userSuspension.list"><![CDATA[Suspensiones]]></item>
