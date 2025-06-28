@@ -47,7 +47,7 @@
 		<item name="wcf.infraction.warning.reason.description"><![CDATA[El motivo de la advertencia se enviará al usuario en una conversación.]]></item>
 		<item name="wcf.infraction.warning.reason.template.description"><![CDATA[Al advertir a un usuario, el campo de texto para el motivo se rellenará previamente con el motivo introducido aquí.]]></item>
 		<item name="wcf.infraction.warning.points"><![CDATA[Puntos]]></item>
-		<item name="wcf.infraction.warning.points.description"><![CDATA[El número de puntos de advertencia añadidos al pool del usuario. La suspensión se activará al alcanzar un número determinado de puntos de advertencia.]]></item>
+		<item name="wcf.infraction.warning.points.description"><![CDATA[El número de puntos de advertencia añadidos a la cuenta de puntos del usuario. La suspensión se activará al alcanzar un número determinado de puntos de advertencia.]]></item>
 		<item name="wcf.infraction.warning.points.minimum"><![CDATA[Puntos mínimos]]></item>
 		<item name="wcf.infraction.warning.points.maximum"><![CDATA[Puntos máximos]]></item>
 		<item name="wcf.infraction.warning.expires"><![CDATA[Expiración]]></item>
