@@ -1,5 +1,5 @@
 # WoltLab Suite Core: Infractions en Español
-Idioma español para **WoltLab Suite Core: Infractions** desarrollado por WoltLab GmbH.
+Idioma español para **WoltLab Suite Core: Infractions** desarrollado por [WoltLab GmbH](https://github.com/WoltLab).
 
 ### Todos los archivos de idioma
 * [WoltLab Suite Core](https://github.com/woltlab-suite-es/es.woltlab.wcf)
