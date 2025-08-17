@@ -51,7 +51,7 @@
 		<item name="wcf.infraction.warning.points.minimum"><![CDATA[Puntos mínimos]]></item>
 		<item name="wcf.infraction.warning.points.maximum"><![CDATA[Puntos máximos]]></item>
 		<item name="wcf.infraction.warning.expires"><![CDATA[Expiración]]></item>
-		<item name="wcf.infraction.warning.expires.description"><![CDATA[Las advertencias expiradas no cuentan para los puntos de aviso del usuario.]]></item>
+		<item name="wcf.infraction.warning.expires.description"><![CDATA[Las advertencias expiradas no cuentan para los puntos de advertencia del usuario.]]></item>
 		<item name="wcf.infraction.warning.expires.never"><![CDATA[La advertencia no expira]]></item>
 		<item name="wcf.infraction.warning.expires.never.short"><![CDATA[Nunca]]></item>
 		<item name="wcf.infraction.warning.expires.days"><![CDATA[Días]]></item>
