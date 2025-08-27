@@ -5,7 +5,7 @@
 		<item name="wcf.acp.group.option.category.mod.infraction"><![CDATA[Infracciones]]></item>
 		<item name="wcf.acp.group.option.category.admin.user.infraction"><![CDATA[Infracciones]]></item>
 		<item name="wcf.acp.group.option.mod.infraction.warning.canWarn"><![CDATA[Puede advertir a usuarios]]></item>
-		<item name="wcf.acp.group.option.mod.infraction.warning.canUseCustomWarning"><![CDATA[Puede usar advertencias individuales]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.canUseCustomWarning"><![CDATA[Puede usar advertencias personalizadas]]></item>
 		<item name="wcf.acp.group.option.mod.infraction.warning.canRevoke"><![CDATA[Puede revocar advertencias]]></item>
 		<item name="wcf.acp.group.option.mod.infraction.warning.immune"><![CDATA[No puede ser advertido]]></item>
 		<item name="wcf.acp.group.option.admin.user.infraction.canManageWarning"><![CDATA[Puede gestionar advertencias]]></item>
