@@ -5,7 +5,7 @@
 		<item name="wcf.acp.group.option.category.mod.infraction"><![CDATA[Infracciones]]></item>
 		<item name="wcf.acp.group.option.category.admin.user.infraction"><![CDATA[Infracciones]]></item>
 		<item name="wcf.acp.group.option.mod.infraction.warning.canWarn"><![CDATA[Puede advertir a usuarios]]></item>
-		<item name="wcf.acp.group.option.mod.infraction.warning.canUseCustomWarning"><![CDATA[Puede usar advertencias personalizadas]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.canUseCustomWarning"><![CDATA[Puede usar advertencias individuales]]></item>
 		<item name="wcf.acp.group.option.mod.infraction.warning.canRevoke"><![CDATA[Puede revocar advertencias]]></item>
 		<item name="wcf.acp.group.option.mod.infraction.warning.immune"><![CDATA[No puede ser advertido]]></item>
 		<item name="wcf.acp.group.option.admin.user.infraction.canManageWarning"><![CDATA[Puede gestionar advertencias]]></item>
@@ -62,6 +62,8 @@
 		<item name="wcf.infraction.warning.object"><![CDATA[Contenido]]></item>
 		<item name="wcf.infraction.warning.alreadyWarned"><![CDATA[Ya hay una advertencia activa para el contenido cuestionable.]]></item>
 		<item name="wcf.infraction.warning.revokedBy"><![CDATA[Revocada por {if $warning->revokerUsername}{$warning->revokerUsername}{else}el sistema{/if}.]]></item>
+		<item name="wcf.infraction.warning.revoked"><![CDATA[Revocada por]]></item>
+		<item name="wcf.infraction.warning.revokedBy.system"><![CDATA[Sistema]]></item>
 		<item name="wcf.infraction.warning.revoke"><![CDATA[Revocar]]></item>
 		<item name="wcf.infraction.warning.revoke.confirmMessage"><![CDATA[¿Realmente quieres revocar esta advertencia?]]></item>
 		<item name="wcf.infraction.warning.time"><![CDATA[Fecha]]></item>
@@ -85,6 +87,8 @@
 		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableCoverPhoto"><![CDATA[Bloquear foto de portada]]></item>
 		<item name="wcf.infraction.suspension.action.settings"><![CDATA[Ajustes]]></item>
 		<item name="wcf.infraction.suspension.revokedBy"><![CDATA[Revocada por {if $suspension->revokerUsername}{$suspension->revokerUsername}{else}el sistema{/if}.]]></item>
+		<item name="wcf.infraction.suspension.revoked"><![CDATA[Revocada por]]></item>
+		<item name="wcf.infraction.suspension.revokedBy.system"><![CDATA[Sistema]]></item>
 		<item name="wcf.infraction.suspension.revoke"><![CDATA[Revocar]]></item>
 		<item name="wcf.infraction.suspension.revoke.confirmMessage"><![CDATA[¿Realmente quieres revocar esta suspensión?]]></item>
 		<item name="wcf.infraction.userWarning.message.subject"><![CDATA[Has recibido una advertencia]]></item>
